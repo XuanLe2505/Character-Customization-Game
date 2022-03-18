@@ -1,0 +1,79 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  background-color: #29262c;
+  font-family: "Dosis";
+  font-size: 24px;
+  font-weight: 700;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+  background-color: #967c6d;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#display {
+  display: flex;
+  background-color: #382325;
+  height: 40px;
+  border-radius: 5px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 24px;
+  color: white;
+}
+.row {
+  display: flex;
+  justify-content: flex-end;
+}
+.button-wrapper {
+  flex-basis: 25%;
+  padding: 10px;
+  height: 60px;
+}
+.button {
+  display: flex;
+  color: #d74742;
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.button-red {
+  display: flex;
+  color: #fff;
+  background-color: #923532;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.del {
+  font-size: 18px;
+}
