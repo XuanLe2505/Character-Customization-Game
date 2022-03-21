@@ -1,0 +1,29 @@
+body {
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  font-size: 2rem;
+}
+
+#value {
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+.btn {
+  background: transparent;
+  padding: 8px 20px;
+  margin: 0.4rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn:hover {
+  color: #fff;
+  background-color: grey;
+}
+.btn-decrease:hover {
+  background-color: red;
+}
+.btn-increase:hover {
+  background-color: green;
+}
